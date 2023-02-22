@@ -8,7 +8,7 @@ Caso queira executar um teste em específico, é só trocar para a tag desejada.
 ## Teste de contrato
 
 A classe `SimulacaoTesteContrato` valida que a resposta do endpoint `POST /api/v1/simulacoes` está condizente com o contrato. 
-Ou seja, se eu executar um POST nesse endpoint e retornar resposta diferente do esperado, então esse teste falha e mostra a divergência. 
+Ou seja, dado que executo um POST neste endpoint e, retorna uma resposta diferente do esperado, então esse teste ira falhar, mostrando o erro. 
 
 ## Cenários de teste
 
